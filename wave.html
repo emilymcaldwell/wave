@@ -11,7 +11,7 @@
     - style my tooltips by malihu
     - npf photoset fix by glenthemes
     - timeAgo(); plugin by bychloethemes
-    - notecount shortener by shythemes
+    - notcount shortener by shythemes
     - smoothscroll by balazs galambosi
     - outicons by anton saputro
     
@@ -282,77 +282,77 @@ ol {max-width: 100%; list-style-type: decimal-leading-zero; margin-left:-20px; }
 }
 
 /* sidebar */
-    section {
-        width:{text:post width}px;
-        margin:0px auto {text:margin}px auto;
-    }
-    
-    .posts {
-        width:{text:post width}px;
-        margin:{text:margin}px auto;
-    }
-    
-    aside {
-        position:fixed;
-        width:{text:sidebar width}px;
-        {block:ifNotRightSidebar}
-        margin-left:calc(-{text:margin}px + -{text:sidebar width}px);
-        {/block:ifNotRightSidebar}
-        {block:ifRightSidebar}
-        margin-left:calc({text:post width}px + {text:margin}px);
-        {/block:ifRightSidebar}
-        margin-top:0;
-        text-align:left;
-    }
-    
-    .icon {
-        display:inline-block;
-        position:relative;
-        right:0;
-        margin-bottom:15px;
-    }
-    
-    .icon img {
-        width:40px;
-        height:40px;
-        border-radius:50%;
-        object-fit:cover;
-    }
-    
-    #blogtitle { 
-        font-weight:bold;
-        line-height:1em; 
-        border:0; 
-        text-transform:uppercase;
-    }
-    
-    #blogtitle a { color:{color:title}; }
-    #blogtitle a:hover { color:{color:accent}; }
-     
-    #description { margin:15px 0; }
-    #description a { font-style:italic; }
-    
-    nav {
-        margin-top:15px;
-        line-height:1.3em;
-    }
-    
-    nav .oi {
-        font-size:1.3em;
-        margin-right:10px;
-        vertical-align:middle;
-    }
-     
-    nav a {
-        display:inline-block;
-        border:0;
-        vertical-align:middle;
-    }
-    
-    nav span {
-        display:block;
-        margin:0 0 10px;
-    }
+section {
+    width:{text:post width}px;
+    margin:0px auto {text:margin}px auto;
+}
+
+.posts {
+    width:{text:post width}px;
+    margin:{text:margin}px auto;
+}
+
+aside {
+    position:fixed;
+    width:{text:sidebar width}px;
+    {block:ifNotRightSidebar}
+    margin-left:calc(-{text:margin}px + -{text:sidebar width}px);
+    {/block:ifNotRightSidebar}
+    {block:ifRightSidebar}
+    margin-left:calc({text:post width}px + {text:margin}px);
+    {/block:ifRightSidebar}
+    margin-top:0;
+    text-align:left;
+}
+
+.icon {
+    display:inline-block;
+    position:relative;
+    right:0;
+    margin-bottom:15px;
+}
+
+.icon img {
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+#blogtitle { 
+    font-weight:bold;
+    line-height:1em; 
+    border:0; 
+    text-transform:uppercase;
+}
+
+#blogtitle a { color:{color:title}; }
+#blogtitle a:hover { color:{color:accent}; }
+ 
+#description { margin:15px 0; }
+#description a { font-style:italic; }
+
+nav {
+    margin-top:15px;
+    line-height:1.3em;
+}
+
+nav .oi {
+    font-size:1.3em;
+    margin-right:10px;
+    vertical-align:middle;
+}
+ 
+nav a {
+    display:inline-block;
+    border:0;
+    vertical-align:middle;
+}
+
+nav span {
+    display:block;
+    margin:0 0 10px;
+}
 
 /* posts */
 .title { text-transform:uppercase; font-weight:bold; font-size:0.9em; }
