@@ -867,6 +867,9 @@ footer a {
 
 {block:Date}
 <div class="post-info">
+    {block:PinnedPostLabel}
+    <div class="date"><a href="{Permalink}">pinned post</a></div>
+    {/block:PinnedPostLabel}
     {block:NoteCount}
     <div class="date"><a href="{Permalink}" class="notecount">{NoteCount} notes</a></div>
     {/block:NoteCount}
